@@ -107,7 +107,7 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.logo_accent {
+.logo--accent {
   color: var(--accent-color);
 }
 
@@ -362,13 +362,13 @@ textarea {
 }
 
 .navigation__logo {
-  display: block;
+  display: inline-block;
   margin-right: 93px;
   color: var(--title-color);
 }
 
 .navigation__list,
-.contacts__list {
+.contacts {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -396,7 +396,7 @@ textarea {
 
 .navigation__link:hover,
 .navigation__link:focus,
-.navigation__link.current {
+.navigation__link--current {
   color: var(--accent-color);
 }
 
@@ -416,14 +416,14 @@ textarea {
     opacity var(--animation);
 }
 
-.current::after,
+.navigation__link--current::after,
 .navigation__link:hover::after,
 .navigation__link:focus::after {
   transform: scale(1);
   opacity: 1;
 }
 
-.contacts__list {
+.contacts {
   margin-left: auto;
 }
 
@@ -442,17 +442,17 @@ textarea {
   color: var(--accent-color);  
 }
 
-.contacts__link_mail,
-.contacts__link_phone {
+.contacts__icon-mail,
+.contacts__icon-phone {
   margin-right: 10px;
 }
 
-.contacts__link_mail {
+.contacts__icon-mail {
   width: 16px;
   height: 12px;
 }
 
-.contacts__link_phone {
+.contacts__icon-phone {
   width: 10px;
   height: 16px;
 }
@@ -722,7 +722,7 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.socials__list {
+.socials {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -791,7 +791,7 @@ textarea {
 /* styles portfolio.html */
 
 /* filters */
-.filters__list {
+.filters {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -824,7 +824,7 @@ textarea {
 }
 
 /* projects */
-.projects__list {
+.projects {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
