@@ -96,7 +96,7 @@ textarea {
 }
 
 .section {
-  padding: 94px 0;
+  padding: 94px 0; 
 }
 
 .logo {
@@ -433,8 +433,7 @@ textarea {
 
 .contacts__link {
   color: var(--main-text-color);
-
-  transition: fill var(--animation), color var(--animation);;
+  transition: fill var(--animation), color var(--animation);
 }
 
 .contacts__link:hover,
